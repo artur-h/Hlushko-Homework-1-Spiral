@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hlushko-Homework-1-Spiral</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <div class="header">
+    <div class="header__description">
+      <h1 class="header__title">Square Spiral Generator :)</h1>
+    </div>
+    <div class="header__input-top">
+      <div class="header__input-filed">
+        <p class="header__subtitle">Input the number of <i>Columns</i> and <i>Rows</i> to create spiral</p>
+        <label>Cols: <input type="text" id="cols-input"></label>
+        <label><input type="text" id="rows-input"> :Rows</label>
+      </div>
+      <input type="submit" onclick="getInputValues()" value="Create" class="create">
+    </div>
+    <span class="header__split">OR</span>
+    <input type="submit" onclick="createRandomParameters()" value="Use random parameters" class="random">
+    <span class="header__range">(from 1 to 20)</span>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
